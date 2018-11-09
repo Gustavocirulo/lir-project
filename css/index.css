@@ -16,4 +16,10 @@
     border: none;
     outline: none;
 }
+
+a { color: inherit; } 
+
+a:hover { 
+    background-color:whitesmoke;
+}
                                 
