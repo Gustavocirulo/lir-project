@@ -1,0 +1,19 @@
+.navigation-bar:focus{
+    color: gray
+}
+
+.navigation-bar:hover{
+    color: lightgray
+}
+
+.navigation-bar:focus{
+    color: rgb(47, 47, 47)
+}
+
+.navigation-bar{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+                                
