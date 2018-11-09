@@ -9,7 +9,6 @@
 <!-- Latest compiled and minified JavaScript -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/index.css"> 
-
 </head>
 
 <body style="background-color: darkslateblue; color: white">
@@ -24,7 +23,7 @@
         <div class="row">
             <div class="homeText col-12" style="display: block">Laboratório Integrado de Redes</div>
             <div class="textoUm col-12" style="display: none">Sobre o Trabalho</div>
-            <div class="textoDois col-12" style="display: none">Grupo 2- André Tavarez e Pedro Lopes</div>
+            <div class="textoDois col-12" style="display: none">Grupo 2 - André Tavarez e Pedro Lopes</div>
             <div class="textoTres col-12" style="display: none">Contato</div>
             
         </div>
@@ -55,70 +54,28 @@
                           </ul>
              </th>
              <th style="border-bottom: solid; margin: 0; border: solid; border-width: 0px 2px 2px 2px; border-color: white; height: 500px; padding: 50px; width: 80%;">
-                    <p class="homeText" style="display: block">
+                    <h4 class="homeText" style="display: block">
                         Trabalho de Apresentação sobre Gerenciamento de servidores web.
-                    </p>
-                    <p class="textoUm" style="display: none">
+                    </h4>
+                    <h4 class="textoUm" style="display: none">
                         Objetivo do trabalho é demonstrar a configuração correta 
                         do servidor através de análise de pacotes transmitidos e recebidos.
-                    </p>
-                    <p class="textoDois" style="display: none">
+                    </h4>
+                    <h4 class="textoDois" style="display: none">
                         André Tavares e Predro Lopes são alunos do Curso de Engenharia de Telecomunicações da PUC-Campinas
-                    </p>
-                    <p class="textoTres" style="display: none">
+                    </h4>
+                    <h4 class="textoTres" style="display: none">
                         Pedro Lopes: Pedro.al2@puccampinas.edu.br </br>
                         André Tavares: andretavares@puccampinas.edu.br
-                    </p>
+                    </h4>
              </th>
          </tr>   
-
     </table>
 
     </div>
 
-    <script>
-    
-    function showFunction(value) {
-    const x = document.getElementsByClassName('textoUm');
-    const y = document.getElementsByClassName('textoDois');
-    const z = document.getElementsByClassName('textoTres');
-    const home = document.getElementsByClassName('homeText');
-    console.log (x);
-    console.log (y);
-    console.log (z);
-    console.log (home);
-    
-    switch(value) {
-        case 1:
-            x[0].style.display = 'block'; x[1].style.display = 'block';
-            y[0].style.display = 'none'; y[1].style.display = 'none';
-            z[0].style.display = 'none'; z[1].style.display = 'none';
-            home[0].style.display = 'none'; home[1].style.display = 'none';
-            break;
-        case 2:
-            x[0].style.display = 'none'; x[1].style.display = 'none';
-            y[0].style.display = 'block'; y[1].style.display = 'block';
-            z[0].style.display = 'none'; z[1].style.display = 'none';
-            home[0].style.display = 'none'; home[1].style.display = 'none';
-            break;
-        case 3:
-            x[0].style.display = 'none'; x[1].style.display = 'none';
-            y[0].style.display = 'none'; y[1].style.display = 'none';
-            z[0].style.display = 'block'; z[1].style.display = 'block';
-            home[0].style.display = 'none'; home[1].style.display = 'none';
-            break;
-        default:
-            x[0].style.display = 'none'; x[1].style.display = 'none';
-            y[0].style.display = 'none'; y[1].style.display = 'none';
-            z[0].style.display = 'none'; z[1].style.display = 'none';
-            home[0].style.display = 'block'; home[1].style.display = 'block';
-            break;
-    }
-
-    }
-
-
-    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
